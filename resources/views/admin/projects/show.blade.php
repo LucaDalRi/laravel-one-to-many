@@ -15,6 +15,10 @@
             <h4>
                 Descrizione: {{ $project->description }}
             </h4>
+
+            <h4>
+                Categoria: {{ $project->category }}
+            </h4>
             
             @if ($project->image)
             <div>
